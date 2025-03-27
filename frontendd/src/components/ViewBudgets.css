@@ -1,0 +1,110 @@
+.h2color{
+  color: #000000;
+  margin-bottom: 20px;
+}
+.view-budgets-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Back Button */
+.back-btn {
+  padding: 10px 15px;
+  background: linear-gradient(135deg, #000000, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #000000, #e667d5);
+}
+
+/* Budget Search Box */
+.budget-search {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.budget-search input {
+  width: 60%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.search-btn {
+  padding: 12px 15px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, #ff6584, #ff4f7b);
+}
+
+/* Budget Card */
+.budget-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.budget-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Budget Details */
+.budget-details {
+  margin-top: 10px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Expense List */
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  background: #e6e6e6;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Message for No Budget Found */
+.no-budget-msg {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

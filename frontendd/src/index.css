@@ -1,0 +1,60 @@
+/* 🔹 Center the entire page */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center; /* ✅ Centers horizontally */
+  align-items: center; /* ✅ Centers vertically */
+  height: 100vh; /* ✅ Ensures full height */
+  margin: 0;
+}
+
+/* 🔹 Ensure Login & Signup Containers are properly centered */
+.login-container,
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.95); /* ✅ More opaque for contrast */
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔹 Fix Positioning */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; /* ✅ Takes up the full viewport height */
+}
+
+/* 🔹 Fix Buttons */
+.login-container button,
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #000000, #727575);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login-container button:hover,
+.signup-container button:hover {
+  background: linear-gradient(135deg, #000000, #7861bd);
+  transform: scale(1.05);
+}
+
+/* 🔹 Ensure Links are Readable */
+.login-container p,
+.signup-container p {
+  color: #222;
+}

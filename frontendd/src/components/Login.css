@@ -1,0 +1,78 @@
+/* 🔹 Center the Login Page */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full-screen centering */
+  }
+  
+  /* 🔹 Login Box */
+  .login-container {
+    max-width: 400px;
+    width: 100%;
+    background: #3939c9; /* ✅ Ensure background is solid */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* 🔹 Fix Text Visibility */
+  .login-container h2 {
+    color: #222; /* ✅ Darker Heading */
+  }
+  
+  .login-container label {
+    color: #333; /* ✅ Dark Labels */
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  /* 🔹 Ensure Input Text is Dark */
+  .login-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #999; /* ✅ Darker Border */
+    border-radius: 8px;
+    font-size: 16px;
+    background: white; /* ✅ Solid background */
+    color: #222; /* ✅ Dark text */
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  /* 🔹 Fix Placeholder Text */
+  .login-container input::placeholder {
+    color: #555;
+  }
+  
+  /* 🔹 Fix Button */
+  .login-container button {
+    padding: 12px;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .login-container button:hover {
+    background: linear-gradient(135deg, #000000, #0b5669);
+  }
+  
+  /* 🔹 Fix Links */
+  .login-container p {
+    color: #333; /* ✅ Darker text */
+  }
+  
+  .login-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

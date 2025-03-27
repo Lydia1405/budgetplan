@@ -1,0 +1,224 @@
+/* General Styling */
+h2 {
+  color: #fff9f9;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 800;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Budget Planner Main Container */
+.a{
+  padding-top: 100px;
+}
+.budget-planner-container {
+  width: 100%;
+  max-width: 1400px; /* Increased width */
+  background: #ffffff;
+  padding: 40px; /* Slightly more padding */
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(350deg, #000000, #5a5858);
+  color: white;
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: white;
+  color: #000000;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #fe1111;
+  color: rgb(0, 0, 0);
+}
+
+/* Budget Selection */
+.budget-selector {
+  margin-bottom: 25px;
+}
+
+.budget-selector select {
+  width: 100%;
+  padding: 14px;
+  font-size: 17px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f8f8f8;
+}
+
+/* Budget Setup */
+.budget-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.budget-setup input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+/* Budget Buttons - Create & Delete */
+.budget-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.create-budget-btn,
+.delete-budget-btn {
+  width: 48%;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+/* Create Budget Button */
+.create-budget-btn {
+  background: linear-gradient(350deg, #000000, #5a5858);
+  color: white;
+}
+
+.create-budget-btn:hover {
+  background: linear-gradient(135deg, #000000, #a619d1);
+  transform: scale(1.05);
+}
+
+/* Delete Budget Button */
+.delete-budget-btn {
+  background: linear-gradient(135deg, #ff4c4c, #c82333);
+  color: white;
+}
+
+.delete-budget-btn:hover {
+  background: linear-gradient(135deg, #c82333, #a71d2a);
+  transform: scale(1.05);
+}
+
+/* Expense Form */
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+/* Add Expense Button */
+.expense-form button {
+  width: 60%;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(350deg, #000000, #5a5858);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.expense-form button:hover {
+  background: linear-gradient(135deg, #000000, #a619d1);
+  transform: scale(1.05);
+}
+
+/* Expense List */
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 14px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* Delete Button for Expenses */
+.delete {
+  background: linear-gradient(135deg, #fc7c7c, #ff2c41);
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover {
+  background: linear-gradient(135deg, #c82333, #a71d2a);
+}
+
+/* View Budgets Button */
+.view-budgets-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(350deg, #000000, #5a5858);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.view-budgets-btn:hover {
+  background: linear-gradient(135deg, #000000, #a619d1);
+}

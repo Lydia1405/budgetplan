@@ -1,0 +1,75 @@
+/* Budget-Themed Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: linear-gradient(350deg, #000000, #282323);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center the main container */
+.container {
+  width: 100%;
+  max-width: 450px;
+  background: rgb(0, 0, 0);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+
+/* Inputs */
+.container input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #f8f8f8f0;
+  transition: 0.3s ease-in-out;
+}
+
+.container input:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+/* Buttons */
+.container button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d82);
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
